@@ -1,7 +1,7 @@
 from fastapi import  FastAPI, status
-from .models import Base
-from .database import engine
-from .routers import todos, admin, users, auth
+from App.models import Base
+from App.database import engine
+from App.routers import todos, admin, users, auth
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse
 
