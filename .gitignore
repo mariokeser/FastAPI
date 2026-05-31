@@ -1,1 +1,4 @@
 /marioenv/
+__pycache__/
+*.pyc
+*.db
